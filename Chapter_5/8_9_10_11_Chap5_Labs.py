@@ -36,7 +36,7 @@ for new_user in new_users_lower:
     else:
         print(f"The username {new_user} is already being used.  Please enter a unique username.")
 
-print("\n5-1 Ordinal Numbers")
+print("\n5-11 Ordinal Numbers")
 numerals = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 for numeral in numerals:
     if numeral <= 1:
@@ -48,7 +48,3 @@ for numeral in numerals:
     else:
         digit = f"{numeral}th"
     print(digit)
-
-
-
-
